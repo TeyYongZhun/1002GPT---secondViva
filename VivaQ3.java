@@ -2,7 +2,7 @@ package viva2;
 
 import java.util.Scanner;
 
-public class Viva2_Q3 {
+public class VivaQ3 {
 
     public static void main(String[] args) {
         //Create a scanner object
