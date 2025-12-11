@@ -33,7 +33,8 @@ public class VivaQ2 {
         String exp = sc.nextLine();
         if (isBalanced(exp)) {
             System.out.print("Balanced");
-        } else {
+        } 
+        else {
             System.out.print("Not balanced");
         }
     }
