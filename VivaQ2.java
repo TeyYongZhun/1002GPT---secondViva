@@ -21,7 +21,7 @@ public class VivaQ2 {
 
         }
 
-        if (balanced != 0) {
+        if (balanced > 0) {
             return false;
         }
         return true;
