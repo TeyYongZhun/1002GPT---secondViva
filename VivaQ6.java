@@ -24,7 +24,7 @@ public class VivaQ6 {
     }
 
     public  static int[] parseInput (String line) {
-        // It splits the string by the comma "," AND removes any spaces ("\\s*") around it.
+        // It splits the string by the comma "," and removes any spaces ("\\s*") around it.
         // Example: "1, 2,  3" becomes ["1", "2", "3"]
         String[] parts = line.split("\\s*,\\s*"); 
         int[] numbers = new int[parts.length];
@@ -45,6 +45,6 @@ public class VivaQ6 {
                 return false;
             }
         }
-        return true; //reyurn true if all elements match the mirror condition
+        return true; //return true if all elements match the mirror condition
     }
 }
