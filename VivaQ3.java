@@ -1,5 +1,3 @@
-package viva2;
-
 import java.util.Scanner;
 
 public class VivaQ3 {

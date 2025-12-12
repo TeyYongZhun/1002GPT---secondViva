@@ -1,4 +1,3 @@
-package vivaq4;
 import java.util.Scanner;
 public class VivaQ4 {
     public static void main(String[] args) {
