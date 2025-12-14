@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class VivaQ2 {
 
-    public static boolean isBalanced(String a) {
+    public static boolean isBalanced(String s) {
         int balanced = 0;
         for (int i = 0; i < a.length(); i++) {
 
-            if (a.charAt(i) == '(') {
+            if (s.charAt(i) == '(') {
                 balanced += 1;
             }
 
-            else if (a.charAt(i) == ')') {
+            else if (s.charAt(i) == ')') {
                 balanced -= 1;
             }
 
